@@ -1,0 +1,27 @@
+{
+  "name": "notes-app-v2-prisma-mysql",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "5.16.1",
+    "mysql2": "^3.14.3",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "prisma": "5.16.1",
+    "tailwindcss": "^4.1.12"
+  }
+}
